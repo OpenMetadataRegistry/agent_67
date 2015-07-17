@@ -1,0 +1,66 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  prefix="
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    skos: http://www.w3.org/2004/02/skos/core#
+    reg: http://metadataregistry.org/uri/profile/RegAp/
+    dc: http://purl.org/dc/elements/1.1/
+    rdfs: http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100009">
+    <div rel="rdfs:isDefinedBy">
+      <div typeof="rdfs:Resource" about="http://uri.registry.dev/profile/regap/">
+        <div property="dc:title" xml:lang="en" content="OMR Application Profile"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="name"></div>
+    <div property="rdfs:label" xml:lang="en" content="name"></div>
+    <div rel="reg:status">
+      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
+        <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
+      </div>
+    </div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/name.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100001">
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div property="reg:name" xml:lang="en" content="hasSubProperty"></div>
+    <div property="rdfs:label" xml:lang="en" content="has subProperty"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/hasSubProperty.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100005">
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasUnconstrained"></div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/hasUnconstrained.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has unconstrained"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100007">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/lexicalAlias.en"></div>
+    <div property="reg:name" xml:lang="en" content="lexicalAlias"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div property="rdfs:label" xml:lang="en" content="Lexical Alias"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100013">
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/url.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div property="reg:name" xml:lang="en" content="url"></div>
+    <div property="rdfs:label" xml:lang="en" content="url"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100011">
+    <div property="rdfs:label" xml:lang="en" content="status"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div property="reg:name" xml:lang="en" content="status"></div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/status.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://uri.registry.dev/profile/regap/100003">
+    <div property="reg:name" xml:lang="en" content="hasSubClass"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://uri.registry.dev/profile/regap/"></div>
+    <div rel="reg:lexicalAlias" resource="http://uri.registry.dev/profile/regap/hasSubClass.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has subClass"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+</div>

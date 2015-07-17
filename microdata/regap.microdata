@@ -1,0 +1,55 @@
+<div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100005" itemscope>
+    <div itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" itemid="http://uri.registry.dev/profile/regap/" itemscope>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="OMR Application Profile" />
+    </div>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has unconstrained" />
+    <div itemprop="http://metadataregistry.org/uri/profile/RegAp/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="hasUnconstrained" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/hasUnconstrained.en" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100007" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="lexicalAlias" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Lexical Alias" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/lexicalAlias.en" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100013" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="url" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="url" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/url.en" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100001" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/hasSubProperty.en" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="hasSubProperty" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has subProperty" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100011" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="status" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="status" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/status.en" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100003" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/hasSubClass.en" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="hasSubClass" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has subClass" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://uri.registry.dev/profile/regap/100009" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/RegAp/name" content="name" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://uri.registry.dev/profile/regap/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/RegAp/lexicalAlias" href="http://uri.registry.dev/profile/regap/name.en" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="name" />
+  </div>
+</div>

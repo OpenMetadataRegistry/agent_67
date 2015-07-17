@@ -1,0 +1,306 @@
+{
+  "http://uri.registry.dev/profile/regap/": {
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "OMR Application Profile"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100003": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "hasSubClass"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/hasSubClass.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has subClass"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100005": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "hasUnconstrained"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has unconstrained"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/hasUnconstrained.en"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100007": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "lexicalAlias"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/lexicalAlias.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Lexical Alias"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "hasSubProperty"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/hasSubProperty.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has subProperty"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100013": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "url"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/url.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "url"
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100011": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "status"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "status"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/status.en"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://uri.registry.dev/profile/regap/100009": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "name"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/name.en"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "name"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://uri.registry.dev/profile/regap/"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/RegAp/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }
+}

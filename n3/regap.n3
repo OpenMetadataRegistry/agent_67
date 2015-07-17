@@ -1,0 +1,66 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/RegAp/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://metadataregistry.org/uri/RegStatus/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://uri.registry.dev/profile/regap/100001> a rdf:Property ;
+    rdfs:label "has subProperty"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/hasSubProperty.en> ;
+    reg:name "hasSubProperty"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100003> a rdf:Property ;
+    rdfs:label "has subClass"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/hasSubClass.en> ;
+    reg:name "hasSubClass"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100005> a rdf:Property ;
+    rdfs:label "has unconstrained"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/hasUnconstrained.en> ;
+    reg:name "hasUnconstrained"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100007> a rdf:Property ;
+    rdfs:label "Lexical Alias"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/lexicalAlias.en> ;
+    reg:name "lexicalAlias"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100009> a rdf:Property ;
+    rdfs:label "name"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/name.en> ;
+    reg:name "name"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100011> a rdf:Property ;
+    rdfs:label "status"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/status.en> ;
+    reg:name "status"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://uri.registry.dev/profile/regap/100013> a rdf:Property ;
+    rdfs:label "url"@en ;
+    reg:lexicalAlias <http://uri.registry.dev/profile/regap/url.en> ;
+    reg:name "url"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://uri.registry.dev/profile/regap/> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://uri.registry.dev/profile/regap/> dc:title "OMR Application Profile"@en .
+
