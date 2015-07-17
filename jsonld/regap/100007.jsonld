@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "http://uri.registry.dev/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://uri.registry.dev/profile/regap/100007",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "Lexical Alias",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/lexicalAlias.en"
+    },
+    "name": "lexicalAlias",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16354.html"
+}

@@ -1,0 +1,157 @@
+{
+"@context": [
+    "http://uri.registry.dev/profile/Contexts/elements_nolang.jsonld",
+    {
+        "@language": "en"
+    }
+],
+  "@graph": [
+{
+    "@id": "http://uri.registry.dev/profile/regap/100001",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "has subProperty",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/hasSubProperty.en"
+    },
+    "name": "hasSubProperty",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16351.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100003",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "has subClass",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/hasSubClass.en"
+    },
+    "name": "hasSubClass",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16352.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100005",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "has unconstrained",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/hasUnconstrained.en"
+    },
+    "name": "hasUnconstrained",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16353.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100007",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "Lexical Alias",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/lexicalAlias.en"
+    },
+    "name": "lexicalAlias",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16354.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100009",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "name",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/name.en"
+    },
+    "name": "name",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16355.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100011",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "status",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/status.en"
+    },
+    "name": "status",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16356.html"
+},
+{
+    "@id": "http://uri.registry.dev/profile/regap/100013",
+    "@type": "Property",
+    "isDefinedBy": {
+        "@id": "http://uri.registry.dev/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/97.html",
+        "label": "OMR Application Profile"
+    },
+    "label": "url",
+    "lexicalAlias": {
+        "@id": "http://uri.registry.dev/profile/regap/url.en"
+    },
+    "name": "url",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16357.html"
+}
+  ]
+}
