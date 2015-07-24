@@ -1,5 +1,7 @@
 # agent_67
-Agent 67
+
+Agent 67 is the agent identifier for Metadata Management Associates
+
 This vocabulary is hosted at:
 htp://uri.registry.dev/profile/regap
 
