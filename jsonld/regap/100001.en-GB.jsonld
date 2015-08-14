@@ -1,42 +1,27 @@
 {
   "@context": [
-    "http://uri.registry.dev/profile/regap/contexts/elements.jsonld"
+    "http://uri.registry.dev/profile/regap/contexts/elements.jsonld",
+    {
+      "@language": "en-GB"
+    }
   ],
   "@id": "http://uri.registry.dev/profile/regap/100001",
   "@type": "Property",
   "isDefinedBy": {
     "@id": "http://uri.registry.dev/profile/regap/",
     "url": "http://metadataregistry.org/schema/show/id/97.html",
-    "label": {
-      "en": "OMR Application Profile",
-      "fr": "OMR Profil d'application"
-    }
+    "label": "OMR Application Profile"
   },
-  "label": {
-    "en": "has subProperty",
-    "en-GB": "has subProperty",
-    "en-US": "has subProperty",
-    "fr": "a subProperty"
-  },
+  "label": "has subProperty",
   "lexicalAlias": {
     "@id": "http://uri.registry.dev/profile/regap/hasSubProperty.en"
   },
-  "name": {
-    "en": "hasSubProperty",
-    "en-GB": "hasSubProperty",
-    "en-US": "hasSubProperty",
-    "fr": "aSubProperty"
-  },
+  "name": "hasSubProperty",
   "status": {
     "@id": "http://metadataregistry.org/uri/RegStatus/1001",
     "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
     "url": "http://metadataregistry.org/concept/show/id/412.html",
-    "label": {
-      "en": "Published",
-      "en-GB": "Published",
-      "en-US": "Published",
-      "fr": "publié"
-    }
+    "label": "Published"
   },
   "url": "http://metadataregistry.org/schemaprop/show/id/16351.html"
 }

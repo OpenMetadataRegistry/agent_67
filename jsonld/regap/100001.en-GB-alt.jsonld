@@ -8,34 +8,24 @@
     "@id": "http://uri.registry.dev/profile/regap/",
     "url": "http://metadataregistry.org/schema/show/id/97.html",
     "label": {
-      "en": "OMR Application Profile",
-      "fr": "OMR Profil d'application"
+      "en": "OMR Application Profile"
     }
   },
   "label": {
-    "en": "has subProperty",
-    "en-GB": "has subProperty",
-    "en-US": "has subProperty",
-    "fr": "a subProperty"
+    "en-GB": "has subProperty"
   },
   "lexicalAlias": {
     "@id": "http://uri.registry.dev/profile/regap/hasSubProperty.en"
   },
   "name": {
-    "en": "hasSubProperty",
-    "en-GB": "hasSubProperty",
-    "en-US": "hasSubProperty",
-    "fr": "aSubProperty"
+    "en-GB": "hasSubProperty"
   },
   "status": {
     "@id": "http://metadataregistry.org/uri/RegStatus/1001",
     "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
     "url": "http://metadataregistry.org/concept/show/id/412.html",
     "label": {
-      "en": "Published",
-      "en-GB": "Published",
-      "en-US": "Published",
-      "fr": "publié"
+      "en-GB": "Published"
     }
   },
   "url": "http://metadataregistry.org/schemaprop/show/id/16351.html"
