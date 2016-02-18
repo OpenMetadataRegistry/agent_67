@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/status",
+    "@type": "Property",
+    "description": [
+        "The status of the resource in the publishing workflow",
+        "L' état ​​de la ressource dans le flux de publication",
+        "资源在出版工作流程的状态",
+        "L' état ​​de la ressource dans le flux de publication"
+    ],
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "Condition",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/Status.en",
+    "name": "Condition",
+    "range": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/"
+    },
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16514.html"
+}

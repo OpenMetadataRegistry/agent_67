@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/hasSubproperty",
+    "@type": "Property",
+    "description": [
+        "This Property has a subProperty",
+        "Cette propriété possède une propriété sous",
+        "这个属性有一个子属性",
+        "Cette propriété possède une propriété sous"
+    ],
+    "domain": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "a Sous-Propriété",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/HasSubproperty.en",
+    "name": "aSousPropriété",
+    "range": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16515.html"
+}

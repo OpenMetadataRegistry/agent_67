@@ -1,9 +1,0 @@
-reg_id,uri,type,"name (en)","label (en)","lexicalAlias (en)",status
-16351,regap:100001,property,hasSubProperty,"has subProperty",regap:hasSubProperty.en,1
-16352,regap:100003,property,hasSubClass,"has subClass",regap:hasSubClass.en,1
-16353,regap:100005,property,hasUnconstrained,"has unconstrained",regap:hasUnconstrained.en,1
-16354,regap:100007,property,lexicalAlias,"Lexical Alias",regap:lexicalAlias.en,1
-16355,regap:100009,property,name,name,regap:name.en,1
-16356,regap:100011,property,status,status,regap:status.en,1
-16357,regap:100013,property,url,url,regap:url.en,1
-,,,,,,

@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/uri",
+    "@type": "Property",
+    "description": [
+        "The OMR maintains a 'local' URI as well as a canonical, 'published' URI. This element contains the canonical URI, which can be changed at will. This will appear in generated RDF as the \"rdf:about\" attribute of an rdf:Description",
+        "L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description",
+        "该OMR维持“本地”的URI ，以及规范“，发表了” URI。该元素包含标准URI ，它可随意改变。这将出现在生成的RDF为“ RDF ：关于”一个RDF属性：说明",
+        "L' OMR maintient un 'local' URI ainsi qu'un canonique , ' publié ' URI . Cet élément contient l'URI canonique , qui peut être modifiée à volonté. Cela apparaîtra dans généré RDF comme les « rdf:about » attribut d'un rdf:Description"
+    ],
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "URI",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/uri.en",
+    "name": "URI",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16519.html"
+}

@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/lexicalAlias",
+    "@type": "Property",
+    "description": [
+        "A subproperty of owl:sameAs designed to provide 'readable', language specific, equivalent URIs that can be resolved to a canonical opaque URI",
+        "Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique",
+        "猫头鹰的子属性： sameAs的设计，提供'读'，具体的语言，折合​​的URI可以解析为一个规范不透明的URI",
+        "Un sous-propriété de OWL:sameAs conçu pour fournir «lisible» , langue spécifique, URI équivalent qui peut être résolu à un opaque URI canonique"
+    ],
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "a Alias Lexicales",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/lexicalAlias.en",
+    "name": "aAliasLexicales",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "subPropertyOf": [
+        {
+            "@id": "http://www.w3.org/2002/07/owl#sameAs"
+        }
+    ],
+    "url": "http://metadataregistry.org/schemaprop/show/id/16517.html"
+}

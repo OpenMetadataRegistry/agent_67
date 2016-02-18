@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/name",
+    "@type": "Property",
+    "description": [
+        "This is a machine-compatible label for a property or class",
+        "Ceci est une étiquette compatible à la machine pour une propriété ou classe",
+        "这是一个属性或类机器兼容标签",
+        "Ceci est une étiquette compatible à la machine pour une propriété ou classe"
+    ],
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "Nom",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/name.en",
+    "name": "Nom",
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16518.html"
+}

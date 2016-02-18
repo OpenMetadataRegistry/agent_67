@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/hasUnconstrained",
+    "@type": "Property",
+    "description": [
+        "This property is a subproperty of another property",
+        "Cette propriété est une propriété sous une autre propriété",
+        "此属性是其他属性的子属性",
+        "Cette propriété est une propriété sous une autre propriété"
+    ],
+    "domain": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "a Non Contraint",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/hasUnconstrained.en",
+    "name": "aNonContraint",
+    "range": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "subPropertyOf": [
+        {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "url": "http://metadataregistry.org/schemaprop/show/id/345.html",
+            "label": "subPropertyOf"
+        }
+    ],
+    "url": "http://metadataregistry.org/schemaprop/show/id/16516.html"
+}

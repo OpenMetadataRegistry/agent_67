@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "http://metadataregistry.org/uri/profile/Contexts/elements_nolang.jsonld",
+        {
+            "@language": "en"
+        }
+    ],
+    "@id": "http://metadataregistry.org/uri/profile/regap/hasSubClass",
+    "@type": "Property",
+    "description": [
+        "This Class has a subClass",
+        "Cette classe a une sous-classe",
+        "这个类有一个子类",
+        "Cette classe a une sous-classe"
+    ],
+    "domain": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"
+    },
+    "isDefinedBy": {
+        "@id": "http://metadataregistry.org/uri/profile/regap/",
+        "url": "http://metadataregistry.org/schema/show/id/98.html",
+        "label": "Open Metadata Registry Application Profile properties"
+    },
+    "label": "a Sous-Classe",
+    "lexicalAlias": "http://metadataregistry.org/uri/profile/regap/hasSubClass.en",
+    "name": "aSousClasse",
+    "range": {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Class"
+    },
+    "status": {
+        "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+        "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+        "url": "http://metadataregistry.org/concept/show/id/412.html",
+        "label": "Published"
+    },
+    "url": "http://metadataregistry.org/schemaprop/show/id/16521.html"
+}
